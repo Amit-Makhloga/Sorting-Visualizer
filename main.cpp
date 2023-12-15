@@ -1,7 +1,6 @@
 #include "raylib.h"
 #include <vector>
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
 using namespace std;
 
 // Default screen Width, Height and min widnow size
@@ -47,13 +46,13 @@ void RandomizeArray(vector<pair<int, int>> &arr);
 // Sorting Functions Prototypes:
 void SortArray();
 
-void Selection_Sort(std::vector<std::pair<int, int>> &arr);
+void Selection_Sort(vector<pair<int, int>> &arr);
 
-void Insertion_Sort(std::vector<std::pair<int, int>> &arr);
+void Insertion_Sort(vector<pair<int, int>> &arr);
 
-void Bubble_Sort(std::vector<std::pair<int, int>> &arr);
+void Bubble_Sort(vector<pair<int, int>> &arr);
 
-int Partition(std::vector<std::pair<int, int>> &arr, int low, int high);
+int Partition(vector<pair<int, int>> &arr, int low, int high);
 
 
 // Changing size and speed
