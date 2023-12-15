@@ -96,18 +96,10 @@ int main(){
     InitWindow(ScreenWidth, ScreenHeight, "Sorting Algorithms :)");
     SetWindowMinSize(MinWindowWidth, MinWindowHeight);
 
-    InitAudioDevice();
 
     // Set FPS
     SetTargetFPS(FPS);
 
-
-    Image SoundOnOff = LoadImage("Images/Sound.png");
-    ImageResize(&SoundOnOff, 20, 20);
-
-    Texture2D texture = LoadTextureFromImage(SoundOnOff);
-    
-    Sound CheelSunsetDream = LoadSound("VideoEffects/Cheel Sunset Dream.mp3");
 
     while (!WindowShouldClose()){
         {
